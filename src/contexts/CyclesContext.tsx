@@ -36,6 +36,11 @@ export function CyclesContextProvider({ children }: CyclesContextProviderProps) 
     if (storedStateAsJSON) {
       return JSON.parse(storedStateAsJSON);
     }
+
+    return {
+      cycles: [],
+      activeCycleId: null
+    };
   });
 
   const { cycles, activeCycleId } = cyclesState;
@@ -48,8 +53,6 @@ export function CyclesContextProvider({ children }: CyclesContextProviderProps) 
     
     return 0;
   });
-
-
 
   useEffect(() => {
     const stateJSON = JSON.stringify(cyclesState);
