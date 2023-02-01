@@ -59,7 +59,7 @@ You will need Node.js and NPM installed on your machine to run the project.
 
 1. Clone the repo:
    ```sh
-   git clone https://github.com/raiffsaid/challenge01-ignite2022-reactjs.git
+   git clone https://github.com/raiffsaid/ignite-timer
    ```
 2. Install project dependencies:
    ```sh
