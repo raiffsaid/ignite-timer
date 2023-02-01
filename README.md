@@ -7,7 +7,7 @@
 
 <p align="center">
   <img alt="Repo size" src="https://img.shields.io/github/repo-size/raiffsaid/ignite-timer?style=flat-square" />
-  <img alt="License" src="https://img.shields.io/github/license/raiffsaid/ignite-timer?style=flat-square" />
+  <img alt="License" src="https://img.shields.io/github/license/raiffsaid/ignite-timer?label=license&style=flat-square" />
   <img alt="Website" src="https://img.shields.io/website?style=flat-square&up_message=Online&url=https%3A%2F%2Fignite-timer-raiffsaid.vercel.app%2F" />
 </p>
 
